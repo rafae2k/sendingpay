@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .logo {
@@ -64,4 +65,22 @@ header {
 .mobile-phone {
   max-width: 500px;
   max-height: 300px;
+}
+
+.container-how-it-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+}
+
+.ellipses {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+
+.ellipses img {
+  height: 200px;
 }
