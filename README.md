@@ -1,4 +1,4 @@
-# Sendingpay
+# Sendpay
 
 Sending Pay Landing Page
 
