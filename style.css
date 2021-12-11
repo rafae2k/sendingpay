@@ -1,13 +1,24 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
-header {
+:root {
+  --primary: #6c63ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.main-container {
   width: 80%;
   margin: auto;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,6 +29,39 @@ header {
   align-items: center;
 }
 
-a:link {
-  text-decoration: none;
+.button-filled {
+  background-color: var(--primary);
+  padding: 15px 16px;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-outline {
+  border: 1px solid var(--primary);
+  padding: 15px 16px;
+  color: var(--primary);
+  border-radius: 5px;
+}
+
+.main-title {
+  display: flex;
+  margin: 90px 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.separator {
+  width: 150px;
+  height: 2px;
+  background-color: var(--primary);
+  border-radius: 1px;
+}
+
+.mobile-phone {
+  max-width: 500px;
+  max-height: 300px;
 }
