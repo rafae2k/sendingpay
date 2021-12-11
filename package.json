@@ -1,0 +1,24 @@
+{
+  "name": "sendingpay",
+  "version": "1.0.0",
+  "description": "sendpay landing page",
+  "main": "script.js",
+  "scripts": {
+    "test": "sendingpay-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafae2k/sendingpay.git"
+  },
+  "author": "rafael-feitoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafae2k/sendingpay/issues"
+  },
+  "homepage": "https://github.com/rafae2k/sendingpay#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
